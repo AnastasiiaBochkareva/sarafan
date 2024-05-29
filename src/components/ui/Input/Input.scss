@@ -189,11 +189,11 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    left: 11px;
-    color: $text-3;
+    left: 14px;
+    color: #c4c4c4;
     cursor: text;
-    font-size: 1rem;
-    line-height: 22px;
+    font-size: 12px;
+    line-height: 15px;
     transition: top $transition, font-size $transition;
   }
 
@@ -288,6 +288,7 @@
   }
 
   &_search {
+    box-shadow: 2px 4px 11px 0px rgba(0, 0, 0, 0.17);
     input {
       padding-right: 85px;
     }
