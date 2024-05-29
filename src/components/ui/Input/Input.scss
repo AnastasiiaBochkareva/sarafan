@@ -53,7 +53,9 @@
     }
 
     &-remove {
-      svg { fill: $ui-dark-2; }
+      svg {
+        fill: $ui-dark-2;
+      }
     }
   }
 
@@ -105,7 +107,7 @@
 
     &:focus,
     &:not(:placeholder-shown) {
-      +.input__placeholder {
+      + .input__placeholder {
         display: none;
       }
     }
@@ -154,9 +156,9 @@
     //border: 1px solid $ui-gray-1;
     border: none;
     background-color: $ui-white;
-    padding: 11px 12px;
-    font-size: 1rem;
-    line-height: 1.467rem;
+    padding: 10px 15px 14px;
+    font-size: 12px;
+    line-height: 15px;
 
     &:active,
     &:focus {
@@ -165,7 +167,7 @@
     }
 
     &:required {
-      +.input__placeholder::before {
+      + .input__placeholder::before {
         content: '*';
         position: absolute;
         top: -5px;
@@ -176,7 +178,7 @@
 
     &:focus,
     &:not(:placeholder-shown) {
-      +.input__placeholder {
+      + .input__placeholder {
         display: none;
       }
     }
@@ -192,8 +194,7 @@
     cursor: text;
     font-size: 1rem;
     line-height: 22px;
-    transition: top $transition,
-                font-size $transition;
+    transition: top $transition, font-size $transition;
   }
 
   &__btns {
@@ -270,7 +271,7 @@
 
       &:not(:placeholder-shown),
       &:focus {
-        +.input__placeholder {
+        + .input__placeholder {
           display: block;
           font-size: 11px;
           line-height: 12px;
@@ -279,7 +280,7 @@
       }
 
       &_error {
-        +.input__placeholde {
+        + .input__placeholde {
           color: $text-error;
         }
       }
@@ -302,7 +303,7 @@
       padding: 0 4px 0 8px;
       &:focus,
       &:not(:placeholder-shown) {
-        +.input__placeholder {
+        + .input__placeholder {
           display: block;
         }
       }
@@ -334,11 +335,11 @@
       padding-inline: 35px;
       text-align: center;
     }
-    input:focus + .input__placeholder, input:not(:placeholder-shown) + .input__placeholder {
+    input:focus + .input__placeholder,
+    input:not(:placeholder-shown) + .input__placeholder {
       display: initial;
     }
   }
-
 
   // status
   &_success,
@@ -371,7 +372,7 @@
 
   &_success {
     &::before {
-      background: url("~@/assets/img/svg/success.svg");
+      background: url('~@/assets/img/svg/success.svg');
       background-size: contain;
     }
     &.focus::after,
@@ -387,7 +388,7 @@
 
   &_error {
     &::before {
-      background: url("~@/assets/img/svg/error.svg");
+      background: url('~@/assets/img/svg/error.svg');
       background-size: contain;
     }
     &.focus::after,
@@ -435,11 +436,11 @@
       transform: translateY(-50%);
       width: 20px;
       height: 20px;
-      background: url("~@/assets/img/svg/select-toggle.svg") center center no-repeat;
+      background: url('~@/assets/img/svg/select-toggle.svg') center center
+        no-repeat;
       transition: transform $transition;
     }
   }
-
 
   // BLOCKS
   &__dropdown {
@@ -487,12 +488,12 @@
           transform: translateY(-50%);
           width: 20px;
           height: 20px;
-          background: url("~@/assets/img/svg/select-checked.svg") center center no-repeat;
+          background: url('~@/assets/img/svg/select-checked.svg') center center
+            no-repeat;
         }
       }
     }
   }
-
 
   // STATUS
   &.active {
@@ -683,10 +684,8 @@
 
 ///////// radio ///////////
 .radio {
-
   display: flex;
   align-items: center;
-
 
   &:hover {
     span:before {
@@ -764,7 +763,6 @@
     }
   }
 
-
   input:not(:checked) + span:after {
     opacity: 0;
   }
@@ -836,9 +834,7 @@
       height: 16px;
       border-radius: 16px;
       background: $ui-gray-2;
-      transition: left $transition,
-      right $transition,
-      background $transition;
+      transition: left $transition, right $transition, background $transition;
     }
   }
 

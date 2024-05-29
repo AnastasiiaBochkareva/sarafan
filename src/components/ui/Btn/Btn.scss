@@ -91,7 +91,7 @@ button {
 
     &::after {
       // border
-      content: "";
+      content: '';
       position: absolute;
       inset: 0px;
       border: 1px solid $ui-gray-1;
@@ -165,7 +165,7 @@ button {
 
     &::after {
       // border
-      content: "";
+      content: '';
       position: absolute;
       inset: 0px;
       border: 1px solid $ui-white;
@@ -215,6 +215,15 @@ button {
   // square
   &_square {
     padding: 10px;
+
+    svg {
+      width: 24px;
+      height: 24px;
+      margin: 0;
+    }
+  }
+  &_circle {
+    border-radius: 50%;
 
     svg {
       width: 24px;
