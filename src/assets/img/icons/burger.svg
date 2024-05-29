@@ -1,3 +1,9 @@
-<svg width="36" height="24" viewBox="0 0 36 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M3 12H27M3 6H33M3 18H33" stroke="#2C2C2C" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"/>
+<svg width="33.000000" height="23.995283" viewBox="0 0 33 23.9953" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs/>
+	<path id="Rectangle 3" d="M2.06 0L30.93 0C32.07 0 33 0.92 33 2.06C33 3.21 32.07 4.13 30.93 4.13L2.06 4.13C0.92 4.13 0 3.21 0 2.06C0 0.92 0.92 0 2.06 0Z" fill="#CD3B31" fill-opacity="1.000000" fill-rule="nonzero"/>
+	<path id="Rectangle 4" d="M16.99 9.92L30.93 9.92C32.07 9.92 33 10.85 33 11.99C33 13.14 32.07 14.06 30.93 14.06L16.99 14.06C15.85 14.06 14.92 13.14 14.92 11.99C14.92 10.85 15.85 9.92 16.99 9.92Z" fill="#CD3B31" fill-opacity="1.000000" fill-rule="nonzero"/>
+	<path id="Rectangle 5" d="M30.93 23.99L2.06 23.99C0.92 23.99 0 23.06 0 21.92C0 20.78 0.92 19.85 2.06 19.85L30.93 19.85C32.07 19.85 33 20.78 33 21.92C33 23.06 32.07 23.99 30.93 23.99Z" fill="#CD3B31" fill-opacity="1.000000" fill-rule="nonzero"/>
 </svg>
