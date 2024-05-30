@@ -1,6 +1,6 @@
 mixin Mall(param={})
   .mall
-    .mall__cell
+    .mall__cell.mall__text
       - const categoryElements = ['Общая площадь торгового центра ', 'Площадь, сдаваемая в аренду', 'Парковка (машиномест)', 'Посещаемость (в неделю)']
       - const descriptionElements = ['25 816 м2', '16 675 м2', '500', '100 000 чел']
       each index in [0, 1, 2, 3]
