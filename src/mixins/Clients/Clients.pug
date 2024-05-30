@@ -3,6 +3,19 @@ mixin Clients(param={})
     .clients__title-sm.title-sm Более 130 бутиков и магазинов уже арендуют у нас помещения
     .clients__content
       .clients__slider
+        .swiper-wrapper 
+          .swiper-slide
+            +Clients-card({
+              imgOne: true
+            })
+          .swiper-slide
+            +Clients-card({
+              imgTwo: true
+            })
+          .swiper-slide
+            +Clients-card({
+              imgThree: true
+            })
       ul.clients__list.list
         li Якорные арендаторы - Лента, Детский Мир, Технопарк, Модис, Familia, Читай город, Тутанхамон, Л'Этуаль
         li Бренды - EWA, Artigli, Gerzedo, Goergo, Du monde, Petek, Neri Karra, Ledy Collection, Paolo Conte, P'Cont, VINZER, Ace, Tonnelli, Milavitsa, и др.
