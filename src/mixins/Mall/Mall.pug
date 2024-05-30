@@ -1,0 +1,19 @@
+mixin Mall(param={})
+  .mall
+    .mall__cell
+      - const categoryElements = ['Общая площадь торгового центра ', 'Площадь, сдаваемая в аренду', 'Парковка (машиномест)', 'Посещаемость (в неделю)']
+      - const descriptionElements = ['25 816 м2', '16 675 м2', '500', '100 000 чел']
+      each index in [0, 1, 2, 3]
+        .mall__row
+          .mall__category= categoryElements[index]
+          .mall__description= descriptionElements[index]
+    .mall__cell
+        img(src="/assets/img/categories/rent/mall-1.png", alt="")
+    .mall__cell
+        img(src="/assets/img/categories/rent/mall-2.png", alt="")
+    .mall__cell
+        img(src="/assets/img/categories/rent/mall-3.png", alt="")
+    .mall__cell
+        img(src="/assets/img/categories/rent/mall-4.png", alt="")
+    .mall__cell
+        img(src="/assets/img/categories/rent/mall-5.png", alt="")
