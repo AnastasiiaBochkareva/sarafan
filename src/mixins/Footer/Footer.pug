@@ -1,0 +1,29 @@
+mixin Footer(param={})
+  footer.footer
+    .footer__logo 
+      img(src="/assets/img/categories/header/logo.png", alt="logo")
+    .footer__links  
+      a(href="#") Магазины
+      a(href="#") О нас
+      a(href="#") Аренда
+      a(href="#") Тендеры
+      a(href="#") Кафе и рестораны
+      a(href="#") События
+      a(href="#") Контакты
+      a(href="#") Политика конфиденциальности
+      a(href="#") Услуги и сервисы
+      a(href="#") Галерея
+      a(href="#") Вакансии
+      a(href="#") Карта ТЦ
+      a(href="#") Развлечения
+    .footer__interactive
+      +Input({placeholder: 'Найти магазин', type: 'search'})
+      .footer__social
+        button.btn.btn_circle
+          +icon('telegram')
+          button.btn.btn_circle
+            +icon('vk')
+    .footer__contacts
+      p 300041, Тульская обл., г. Тула, ул. Путейская, д. 5
+      p ТЦ Сарафан: 10:00-21:00 <br> Лента: 08:00-22:00
+      p +7 (4872) 33-80-55
